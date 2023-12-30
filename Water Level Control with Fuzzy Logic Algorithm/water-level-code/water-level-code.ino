@@ -1,12 +1,12 @@
 #include<math.h>
 #include<stdio.h>
 #include<ThingerESP32.h>
-#define USERNAME "Naufal312"
-#define DEVICE_ID "ESP32_SoilSensor"
-#define DEVICE_CREDENTIAL "oumiM%#hQlR#$y&x"
+#define USERNAME "your_thinger_username"
+#define DEVICE_ID "your_thinger_device_id"
+#define DEVICE_CREDENTIAL "your_thinger_device_credential"
 
-#define SSID "Naufal"
-#define SSID_PASSWORD "ichbinexschuler"
+#define SSID "your_wifi_name"
+#define SSID_PASSWORD "your_wifi_password"
 
 ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
 
